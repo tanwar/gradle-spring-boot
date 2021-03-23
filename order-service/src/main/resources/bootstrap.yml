@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8091
+  application:
+    name: order-service
+  jackson:
+    serialization:
+      write_dates_as_timestamps: false

@@ -1,0 +1,13 @@
+server:
+  port: 8091
+  
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///Users/amatanwa/eclipse-workspace/git-repo
+        clone-on-start: true
+        
+  application:
+    name: config-server
